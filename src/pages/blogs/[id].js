@@ -8,7 +8,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: blocking,
+    fallback: "blocking",
   };
 }
 export async function getStaticProps({ params }) {
